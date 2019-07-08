@@ -3,6 +3,8 @@
     Sort element using any sorting method.
     Search element using binary search.
     Shift elements.
+
+    The time complexity fully depends on the sorting time of the array. 
  */
 
 
@@ -99,6 +101,9 @@ void selection_sort(int a[], int s) {
 
 }
 
+/*
+    Time Complexity = O(1)
+ */
 void delete_pos(int a[], int s, int position) {
     a[position] = a[s-1];
 }
@@ -107,8 +112,8 @@ void delete_pos(int a[], int s, int position) {
     Time Complexity to delete 1 element from a sorted array
         1. Sort Element = O(n^2)
         2. Search The key element = O(logn)
-
-        Worst case = O(n^2logn)
+        3. Shifting time = n
+        Worst case = O(n^2)
  */
 
 void delete_from_sorted(int a[], int s, int del) {
