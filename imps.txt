@@ -1,0 +1,2 @@
+git config credential.helper store
+git push https://github.com/2019-ningshen/gate_2019.git
