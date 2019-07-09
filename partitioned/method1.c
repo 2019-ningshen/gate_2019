@@ -39,7 +39,7 @@ void main() {
     }
 
     int i;
-    for(i=0;i<s-1;i++) {
+    for(i=0;i<s;i++) {
         printf("%d ", a[i]);
     }
 }
